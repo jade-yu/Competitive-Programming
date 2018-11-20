@@ -20,7 +20,7 @@ int main()
 				else N[i] = '0';
 			}
 		} else {
-			if(N[i] == '.') {
+			if(N[i+p] == '.') {
 				flag = 1;
 				if(N[i] == '0')
 					N[i+p] = '1';
