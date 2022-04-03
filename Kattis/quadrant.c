@@ -1,3 +1,7 @@
+/*
+	Link: https://open.kattis.com/problems/quadrant
+*/
+
 #include <stdio.h>
 
 int main() {

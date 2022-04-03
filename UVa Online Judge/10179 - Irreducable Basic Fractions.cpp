@@ -1,3 +1,11 @@
+/*
+	Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1120
+
+	> Prime factor sieve part by Austin
+	> Initial problem was with duplicate primes, fixed it by putting while block inside the if block
+	> Final problem was overflow with int, fixed it by dividing first before multiplying
+*/
+
 #include <cstdio>
 #include <cmath>
 #include <cstring>

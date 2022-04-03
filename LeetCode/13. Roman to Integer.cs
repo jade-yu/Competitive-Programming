@@ -1,4 +1,11 @@
-//Link to problem: https://leetcode.com/problems/roman-to-integer/
+/*
+    Link: https://leetcode.com/problems/roman-to-integer/
+
+    > Store Roman numerals' value equivalents in array for easier lookup
+    > Check if next numeral is greater than current (To check for digits 4 and 9)
+    > If yes, subtract current value equivalent
+    > If not, add current value equivalent
+*/
 
 public class Solution {
     Dictionary<string, int> dict1 = new Dictionary<string, int>

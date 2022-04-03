@@ -1,4 +1,10 @@
-//Link to problem: https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/
+/*
+    Link: https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/
+
+    > Get the smaller side from each rectangle (this is the maximum size of the square we can create for each rectangle)
+    > Reset counter if maxlen is overwritten
+    > Add to counter if square is equal to maxlen
+*/
 
 public class Solution {
     public int CountGoodRectangles(int[][] rectangles) {

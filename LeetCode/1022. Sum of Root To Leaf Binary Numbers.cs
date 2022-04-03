@@ -1,4 +1,12 @@
-//Link to problem: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
+/*
+    Link: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
+
+    > Recursive solution (with no lookup)
+    > Get all possible subsets from left and right nodes and add node value
+    > Convert binary string to integer and return sum
+
+    Possible optimization would be adding a lookup for the binary value equivalents
+*/
 
 /**
  * Definition for a binary tree node.

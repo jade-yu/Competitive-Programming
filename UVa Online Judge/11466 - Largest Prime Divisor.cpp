@@ -1,3 +1,9 @@
+/*
+	Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2461
+	
+	Count up every time you get a prime factor, then get the latest number (given that you already have at least one existing prime factor)
+*/
+
 #include <cstdio>
 #include <cmath>
 #include <cstring>

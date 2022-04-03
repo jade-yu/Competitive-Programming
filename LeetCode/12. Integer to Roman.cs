@@ -1,4 +1,8 @@
-//Link to problem: https://leetcode.com/problems/integer-to-roman/
+/*
+    Link: https://leetcode.com/problems/integer-to-roman/
+
+    Get each digit and convert to the roman numeral equivalent (array index relies on digit place)
+*/
 
 public class Solution {
     char[] romanNums = new char[] {'M', 'D', 'C', 'L', 'X', 'V', 'I'};

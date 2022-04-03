@@ -1,3 +1,8 @@
+/*
+	Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2947
+
+	Get the exponent of the nearest power of 2 less than or equal to n
+*/
 #include <cstdio>
 #include <cmath>
 
